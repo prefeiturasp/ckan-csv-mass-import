@@ -1,9 +1,8 @@
 /*!
- * async
- * https://github.com/caolan/async
+ * ckan-csv-mass-import
+ * https://github.com/prefeiturasp/ckan-csv-mass-import
  *
- * Copyright 2010-2014 Caolan McMahon
- * Released under the MIT license
+ * Released under the GPL v3
  */
 /*jshint onevar: false, indent:4 */
 /*global setImmediate: false, setTimeout: false, console: false */
@@ -14,30 +13,17 @@ var async  = require('async');
     path   = require('path'),
     http   = require('http'),
     rest   = require('restler'),
-    _      = require('underscore');
+    _      = require('underscore'),
+    S      = require('string');
 
 Importer = function  () {
-    this.data = {};
     this.options = {
-      host    : 'http://cmbd.local/api/3/',
+      host    : 'http://cmbd.local/api/3/action/',
       api_key : '502c6e4b-3384-4ba5-b396-501ba0615324'
-    };
-    this.files = {
-        group        : path.join(__dirname, '/csv/groups.csv'),
-        organization : path.join(__dirname, '/csv/organizations.csv'),
-        dataset      : path.join(__dirname, '/csv/datasets.csv')
-    };
-    this.requests = {
-        // http://docs.ckan.org/en/latest/api/index.html#ckan.logic.action.create.group_create
-        group        : {method: 'POST', path: 'package_create'},
-        // http://docs.ckan.org/en/latest/api/index.html#ckan.logic.action.create.organization_create
-        organization : {method: 'POST', path: 'organization_create'},
-        // http://docs.ckan.org/en/latest/api/index.html#ckan.logic.action.create.package_create
-        dataset      : {method: 'POST', path: 'package_create'}
     };
 };
 
-Importer.prototype.validateData = function (err, data) {
+Importer.prototype.validate = function (err, data) {
     if (!err) {
         return data;
     } else {
@@ -45,11 +31,11 @@ Importer.prototype.validateData = function (err, data) {
     }
 };
 
-Importer.prototype.getFile = function (filePath) {
-    return fs.readFileSync(filePath, {encoding: 'utf-8'});
+Importer.prototype.read = function (file) {
+    return fs.readFileSync(file, {encoding: 'utf-8'});
 };
 
-Importer.prototype.parseData = function (raw_data) {
+Importer.prototype.parse = function (raw) {
     var output = [];
     // Create the parser
     var parser = csv.parse({columns: true});
@@ -65,30 +51,48 @@ Importer.prototype.parseData = function (raw_data) {
     });
 
     // Now that setup is done, write data to the stream
-    parser.write(raw_data);
+    parser.write(raw);
     // Close the readable stream
     parser.end();
     return output;
 };
 
-Importer.prototype.save = function (resource, data) {
-    rest.post('http://user:pass@service.com/action', {
-      data: { id: 334 },
+Importer.prototype.call = function (options, params) {
+    rest.postJson(this.options.host + options.path, params, {
+        headers : {'Authorization': this.options.api_key},
+        method  : options.method
     }).on('complete', function(data, response) {
+        //console.log(response);
       if (response.statusCode == 201) {
         // you can get at the raw response like this...
       }
+    }).on('fail', function(data, response){
+        //console.log(data);
     });
 };
 
-var i = new Importer;
+var i = new Importer,
+    files = {
+        group        : path.join(__dirname, '/csv/groups.csv'),
+        organization : path.join(__dirname, '/csv/organizations.csv'),
+        dataset      : path.join(__dirname, '/csv/datasets.csv')
+    },
+    requests = {
+        // http://docs.ckan.org/en/latest/api/index.html#ckan.logic.action.create.group_create
+        group        : {method: 'post', path: 'package_create'},
+        // http://docs.ckan.org/en/latest/api/index.html#ckan.logic.action.create.organization_create
+        organization : {method: 'post', path: 'organization_create'},
+        // http://docs.ckan.org/en/latest/api/index.html#ckan.logic.action.create.package_create
+        dataset      : {method: 'post', path: 'package_create'}
+    };
 
-_.each(i.files, function (v,k) {
-    var input = i.getFile(v);
-    var parsed = i.parseData(input);
-console.log(parsed);
+_.each(files, function (v,k) {
+    var input = i.read(v);
+    var parsed = i.parse(input);
+    _.each(parsed, function (row) {
+        //console.log(row);
+        row.name = S(row.title).slugify().s;
+        row.name = S(row.name).truncate(100).s;
+        i.call(requests[k], row);
+    })
 });
-
-
-
-
