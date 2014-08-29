@@ -1,0 +1,69 @@
+name,id,title,description,image_url,state
+,CGM,Controladoria Geral do Município,,,active
+,SECOM,Secretaria Executiva de Comunicação,,,active
+,SEHAB,Secretaria de Habitação,,,active
+,SEL,Secretaria de Licenciamento,,,active
+,SEME,"Secretaria de Esportes, Lazer e Recreação",,,active
+,SEMPLA,"Secretaria de Planejamento, Orçamento e Gestão",,,active
+,SF,Secretaria de Finanças e Desenvolvimento Econômico,,,active
+,SIURB,Secretaria de Infraestrutura Urbana e Obras,,,active
+,SMADS,Secretaria de Assistência e Desenvolvimento Social,,,active
+,SMC,Secretaria de Cultura,,,active
+,SMDHC,Secretaria de Direitos Humanos e Cidadania,,,active
+,SMDU,Secretaria de Desenvolvimento Urbano,,,active
+,SME,Secretaria de Educação,,,active
+,SMPED,Secretaria da Pessoa comdeficiência e Mobilidade Reduzida,,,active
+,SMPIR,Secretaria de Promoção da Igualdade Racial,,,active
+,SMPM,Secretaria de Política para as Mulheres,,,active
+,SMRG,Secretaria de Relações Governamentais,,,active
+,SMRIF,Secretaria de Relações Internacionais e Federativas,,,active
+,SMS,Secretaria da Saúde,,,active
+,SMSP,Secretaria de Coordenação das Subprefeituras,,,active
+,SMSU,Secretaria de Segurança Urbana,,,active
+,SMT,Secretaria de Transportes,,,active
+,SNJ,Secretaria de Negócios Jurídicos,,,active
+,SVMA,Secretaria do Verde e do Meio Ambiente,,,active
+,FPET,Fundação Paulistana de Educação e Tecnologia,,,active
+,FTMSP,Fundação Theatro Municipal de São Paulo,,,active
+,AHM,Autarquia Hospitalar Municipal,,,active
+,Amlurb,Autoridade Municipal de Limpeza Urbana,,,active
+,CET,Companhia de Engenharia de Tráfego,,,active
+,Cohab,Companhia Metropolitana de Habitação de São Paulo,,,active
+,HSPM,Hospital do Servidor Público Municipal,,,active
+,Iprem,Instituto de Previdência Municipal,,,active
+,SPDA,Companhia São Paulo de Desenvolvimento e Mobilização de Ativos,,,active
+,SPObras,São Paulo Obras,,,active
+,SPSEC,Companhia Paulistana de Securitização,,,active
+,SPTrans,São Paulo Transporte S.A.,,,active
+,SPUrbanismo,São Paulo Urbanismo,,,active
+,SPPR,Subprefeitura Perus,,,active
+,SPPJ,Subprefeitura Pirituba,,,active
+,SPFO,Subprefeitura Freguesia/Brasilândia,,,active
+,SPCV,Subprefeitura Casa Verde/Cachoeirinha,,,active
+,SPST,Subprefeitura Santana/Tucuruvi,,,active
+,SPJT,Subprefeitura Jaçanã/Tremembé,,,active
+,SPMG,Subprefeitura Vila Maria/Vila Guilherme,,,active
+,SPLA,Subprefeitura Lapa,,,active
+,SPSE,Subprefeitura Sé,,,active
+,SPBT,Subprefeitura Butantã,,,active
+,SPPI,Subprefeitura Pinheiros,,,active
+,SPVM,Subprefeitura Vila Mariana,,,active
+,SPIP,Subprefeitura Ipiranga,,,active
+,SPSA,Subprefeitura Santo Amaro,,,active
+,SPJA,Subprefeitura Jabaquara,,,active
+,SPAD,Subprefeitura Cidade Ademar,,,active
+,SPCL,Subprefeitura Campo Limpo,,,active
+,SPMB,Subprefeitura M'Boi Mirim,,,active
+,SPCS,Subprefeitura Capela do Socorro ,,,active
+,SPPA,Subprefeitura Parelheiros,,,active
+,SPPE,Subprefeitura Penha,,,active
+,SPEM,Subprefeitura Ermelino Matarazzo,,,active
+,SPMP,Subprefeitura São Miguel,,,active
+,SPIT,Subprefeitura Itaim Paulista,,,active
+,SPMO,Subprefeitura Mooca,,,active
+,SPAF,Subprefeitura Aricanduva/Formosa/Carrão,,,active
+,SPIQ,Subprefeitura Itaquera,,,active
+,SPGU,Subprefeitura Guaianases,,,active
+,SPVP,Subprefeitura Vila Prudente/Sapopemba,,,active
+,SPSM,Subprefeitura São Mateus,,,active
+,SPCT,Subprefeitura Cidade Tiradentes,,,active

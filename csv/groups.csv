@@ -1,0 +1,24 @@
+name,id,title,description,image_url,state
+,1,Administração ,,,active
+,2,Agropecuária ,,,active
+,3,Comércio e Serviços ,,,active
+,4,Comunicações ,,,active
+,5,Cultura ,,,active
+,6,Defesa Nacional ,,,active
+,7,Economia e Finanças ,,,active
+,8,Educação ,,,active
+,9,Energia ,,,active
+,10,Esporte e Lazer ,,,active
+,11,Habitação ,,,active
+,12,Indústria ,,,active
+,13,Meio ambiente ,,,active
+,14,Pesquisa e Desenvolvimento ,,,active
+,15,Previdência Social ,,,active
+,16,Proteção social ,,,active
+,17,Relações internacionais ,,,active
+,18,Saneamento ,,,active
+,19,Saúde ,,,active
+,20,Segurança e Ordem Pública ,,,active
+,21,Trabalho ,,,active
+,22,Transportes ,,,active
+,23,Urbanismo,,,active
