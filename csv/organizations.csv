@@ -1,69 +1,69 @@
 name,id,title,description,image_url,state
-,CGM,Controladoria Geral do Município,,,active
-,SECOM,Secretaria Executiva de Comunicação,,,active
-,SEHAB,Secretaria de Habitação,,,active
-,SEL,Secretaria de Licenciamento,,,active
-,SEME,"Secretaria de Esportes, Lazer e Recreação",,,active
-,SEMPLA,"Secretaria de Planejamento, Orçamento e Gestão",,,active
-,SF,Secretaria de Finanças e Desenvolvimento Econômico,,,active
-,SIURB,Secretaria de Infraestrutura Urbana e Obras,,,active
-,SMADS,Secretaria de Assistência e Desenvolvimento Social,,,active
-,SMC,Secretaria de Cultura,,,active
-,SMDHC,Secretaria de Direitos Humanos e Cidadania,,,active
-,SMDU,Secretaria de Desenvolvimento Urbano,,,active
-,SME,Secretaria de Educação,,,active
-,SMPED,Secretaria da Pessoa comdeficiência e Mobilidade Reduzida,,,active
-,SMPIR,Secretaria de Promoção da Igualdade Racial,,,active
-,SMPM,Secretaria de Política para as Mulheres,,,active
-,SMRG,Secretaria de Relações Governamentais,,,active
-,SMRIF,Secretaria de Relações Internacionais e Federativas,,,active
-,SMS,Secretaria da Saúde,,,active
-,SMSP,Secretaria de Coordenação das Subprefeituras,,,active
-,SMSU,Secretaria de Segurança Urbana,,,active
-,SMT,Secretaria de Transportes,,,active
-,SNJ,Secretaria de Negócios Jurídicos,,,active
-,SVMA,Secretaria do Verde e do Meio Ambiente,,,active
-,FPET,Fundação Paulistana de Educação e Tecnologia,,,active
-,FTMSP,Fundação Theatro Municipal de São Paulo,,,active
-,AHM,Autarquia Hospitalar Municipal,,,active
-,Amlurb,Autoridade Municipal de Limpeza Urbana,,,active
-,CET,Companhia de Engenharia de Tráfego,,,active
-,Cohab,Companhia Metropolitana de Habitação de São Paulo,,,active
-,HSPM,Hospital do Servidor Público Municipal,,,active
-,Iprem,Instituto de Previdência Municipal,,,active
-,SPDA,Companhia São Paulo de Desenvolvimento e Mobilização de Ativos,,,active
-,SPObras,São Paulo Obras,,,active
-,SPSEC,Companhia Paulistana de Securitização,,,active
-,SPTrans,São Paulo Transporte S.A.,,,active
-,SPUrbanismo,São Paulo Urbanismo,,,active
-,SPPR,Subprefeitura Perus,,,active
-,SPPJ,Subprefeitura Pirituba,,,active
-,SPFO,Subprefeitura Freguesia/Brasilândia,,,active
-,SPCV,Subprefeitura Casa Verde/Cachoeirinha,,,active
-,SPST,Subprefeitura Santana/Tucuruvi,,,active
-,SPJT,Subprefeitura Jaçanã/Tremembé,,,active
-,SPMG,Subprefeitura Vila Maria/Vila Guilherme,,,active
-,SPLA,Subprefeitura Lapa,,,active
-,SPSE,Subprefeitura Sé,,,active
-,SPBT,Subprefeitura Butantã,,,active
-,SPPI,Subprefeitura Pinheiros,,,active
-,SPVM,Subprefeitura Vila Mariana,,,active
-,SPIP,Subprefeitura Ipiranga,,,active
-,SPSA,Subprefeitura Santo Amaro,,,active
-,SPJA,Subprefeitura Jabaquara,,,active
-,SPAD,Subprefeitura Cidade Ademar,,,active
-,SPCL,Subprefeitura Campo Limpo,,,active
-,SPMB,Subprefeitura M'Boi Mirim,,,active
-,SPCS,Subprefeitura Capela do Socorro ,,,active
-,SPPA,Subprefeitura Parelheiros,,,active
-,SPPE,Subprefeitura Penha,,,active
-,SPEM,Subprefeitura Ermelino Matarazzo,,,active
-,SPMP,Subprefeitura São Miguel,,,active
-,SPIT,Subprefeitura Itaim Paulista,,,active
-,SPMO,Subprefeitura Mooca,,,active
-,SPAF,Subprefeitura Aricanduva/Formosa/Carrão,,,active
-,SPIQ,Subprefeitura Itaquera,,,active
-,SPGU,Subprefeitura Guaianases,,,active
-,SPVP,Subprefeitura Vila Prudente/Sapopemba,,,active
-,SPSM,Subprefeitura São Mateus,,,active
-,SPCT,Subprefeitura Cidade Tiradentes,,,active
+AHM,autarquia-hospitalar-municipal,Autarquia Hospitalar Municipal,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/ahm.png,active
+AMLURB,autoridade-municipal-de-limpeza-urbana,Autoridade Municipal de Limpeza Urbana,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/mlurb.png,active
+CET,companhia-de-engenharia-de-trfego,Companhia de Engenharia de Tráfego,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/cet.png,active
+CGM,controladoria-geral-do-municpio,Controladoria Geral do Município,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/cgm.png,active
+COHAB,companhia-metropolitana-de-habitao-de-so-paulo,Companhia Metropolitana de Habitação de São Paulo,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/cohab.png,active
+FPET,fundao-paulistana-de-educao-e-tecnologia,Fundação Paulistana de Educação e Tecnologia,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/fund_paulistana_edu_tec.png,active
+FTMSP,fundao-theatro-municipal-de-so-paulo,Fundação Theatro Municipal de São Paulo,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/fund_theatro_municipal_sp.png,active
+HSPM,hospital-do-servidor-pblico-municipal,Hospital do Servidor Público Municipal,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/hspm.png,active
+IPREM,instituto-de-previdncia-municipal,Instituto de Previdência Municipal,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/iprem.png,active
+SECOM,secretaria-executiva-de-comunicao,Secretaria Executiva de Comunicação,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/secom.png,active
+SEHAB,secretaria-de-habitao,Secretaria de Habitação,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/sehab.png,active
+SEL,secretaria-de-licenciamento,Secretaria de Licenciamento,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/sel.png,active
+SEME,secretaria-de-esportes-lazer-e-recreao,"Secretaria de Esportes, Lazer e Recreação",,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/seme.png,active
+SEMPLA,secretaria-de-planejamento-oramento-e-gesto,"Secretaria de Planejamento, Orçamento e Gestão",,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/sempla.png,active
+SF,secretaria-de-finanas-e-desenvolvimento-econmico,Secretaria de Finanças e Desenvolvimento Econômico,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/sf.png,active
+SIURB,secretaria-de-infraestrutura-urbana-e-obras,Secretaria de Infraestrutura Urbana e Obras,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/siurb.png,active
+SMADS,secretaria-de-assistncia-e-desenvolvimento-social,Secretaria de Assistência e Desenvolvimento Social,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/smads.png,active
+SMC,secretaria-de-cultura,Secretaria de Cultura,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/smc.png,active
+SMDHC,secretaria-de-direitos-humanos-e-cidadania,Secretaria de Direitos Humanos e Cidadania,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/smdhc.png,active
+SMDU,secretaria-de-desenvolvimento-urbano,Secretaria de Desenvolvimento Urbano,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/smdu.png,active
+SME,secretaria-de-educao,Secretaria de Educação,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/sme.png,active
+SMPED,secretaria-da-pessoa-comdeficincia-e-mobilidade-reduzida,Secretaria da Pessoa comdeficiência e Mobilidade Reduzida,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/smped.png,active
+SMPIR,secretaria-de-promoo-da-igualdade-racial,Secretaria de Promoção da Igualdade Racial,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/smpir.png,active
+SMPM,secretaria-de-poltica-para-as-mulheres,Secretaria de Política para as Mulheres,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/smpm.png,active
+SMRG,secretaria-de-relaes-governamentais,Secretaria de Relações Governamentais,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/smrg.png,active
+SMRIF,secretaria-de-relaes-internacionais-e-federativas,Secretaria de Relações Internacionais e Federativas,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/smrif.png,active
+SMS,secretaria-da-sade,Secretaria da Saúde,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/sms.png,active
+SMSP,secretaria-de-coordenao-das-subprefeituras,Secretaria de Coordenação das Subprefeituras,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/smsp.png,active
+SMSU,secretaria-de-segurana-urbana,Secretaria de Segurança Urbana,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/smsu.png,active
+SMT,secretaria-de-transportes,Secretaria de Transportes,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/smt.png,active
+SNJ,secretaria-de-negcios-jurdicos,Secretaria de Negócios Jurídicos,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/snj.png,active
+SPAD,subprefeitura-cidade-ademar,Subprefeitura Cidade Ademar,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spad.png,active
+SPAF,subprefeitura-aricanduvaformosacarro,Subprefeitura Aricanduva/Formosa/Carrão,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spaf.png,active
+SPBT,subprefeitura-butant,Subprefeitura Butantã,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spbt.png,active
+SPCL,subprefeitura-campo-limpo,Subprefeitura Campo Limpo,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spcl.png,active
+SPCS,subprefeitura-capela-do-socorro,Subprefeitura Capela do Socorro ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spcs.png,active
+SPCT,subprefeitura-cidade-tiradentes,Subprefeitura Cidade Tiradentes,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spct.png,active
+SPCV,subprefeitura-casa-verdecachoeirinha,Subprefeitura Casa Verde/Cachoeirinha,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spcv.png,active
+SPDA,companhia-so-paulo-de-desenvolvimento-e-mobilizao-de-ativos,Companhia São Paulo de Desenvolvimento e Mobilização de Ativos,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spda.png,active
+SPEM,subprefeitura-ermelino-matarazzo,Subprefeitura Ermelino Matarazzo,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spem.png,active
+SPFO,subprefeitura-freguesiabrasilndia,Subprefeitura Freguesia/Brasilândia,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spfo.png,active
+SPGU,subprefeitura-guaianases,Subprefeitura Guaianases,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spgu.png,active
+SPIP,subprefeitura-ipiranga,Subprefeitura Ipiranga,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spip.png,active
+SPIQ,subprefeitura-itaquera,Subprefeitura Itaquera,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spiq.png,active
+SPIT,subprefeitura-itaim-paulista,Subprefeitura Itaim Paulista,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spit.png,active
+SPJA,subprefeitura-jabaquara,Subprefeitura Jabaquara,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spja.png,active
+SPJT,subprefeitura-jaantrememb,Subprefeitura Jaçanã/Tremembé,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spjt.png,active
+SPLA,subprefeitura-lapa,Subprefeitura Lapa,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spla.png,active
+SPMB,subprefeitura-mboi-mirim,Subprefeitura M'Boi Mirim,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spmb.png,active
+SPMG,subprefeitura-vila-mariavila-guilherme,Subprefeitura Vila Maria/Vila Guilherme,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spmg.png,active
+SPMO,subprefeitura-mooca,Subprefeitura Mooca,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spmo.png,active
+SPMP,subprefeitura-so-miguel,Subprefeitura São Miguel,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spmp.png,active
+SPObras,so-paulo-obras,São Paulo Obras,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spobras.png,active
+SPPA,subprefeitura-parelheiros,Subprefeitura Parelheiros,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/sppa.png,active
+SPPE,subprefeitura-penha,Subprefeitura Penha,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/sppe.png,active
+SPPI,subprefeitura-pinheiros,Subprefeitura Pinheiros,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/sppi.png,active
+SPPJ,subprefeitura-pirituba,Subprefeitura Pirituba,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/sppj.png,active
+SPPR,subprefeitura-perus,Subprefeitura Perus,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/sppr.png,active
+SPSA,subprefeitura-santo-amaro,Subprefeitura Santo Amaro,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spsa.png,active
+SPSE,subprefeitura-s,Subprefeitura Sé,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spse.png,active
+SPSEC,companhia-paulistana-de-securitizao,Companhia Paulistana de Securitização,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spsec.png,active
+SPSM,subprefeitura-so-mateus,Subprefeitura São Mateus,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spsm.png,active
+SPST,subprefeitura-santanatucuruvi,Subprefeitura Santana/Tucuruvi,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spst.png,active
+SPTrans,so-paulo-transporte-sa,São Paulo Transporte S.A.,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/sptrans.png,active
+SPUrbanismo,so-paulo-urbanismo,São Paulo Urbanismo,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spurbanismo.png,active
+SPVM,subprefeitura-vila-mariana,Subprefeitura Vila Mariana,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spvm.png,active
+SPVP,subprefeitura-vila-prudentesapopemba,Subprefeitura Vila Prudente/Sapopemba,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/spvp.png,active
+SVMA,secretaria-do-verde-e-do-meio-ambiente,Secretaria do Verde e do Meio Ambiente,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/unidades/svma.png,active

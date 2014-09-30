@@ -1,24 +1,24 @@
 name,id,title,description,image_url,state
-,1,Administração ,,,active
-,2,Agropecuária ,,,active
-,3,Comércio e Serviços ,,,active
-,4,Comunicações ,,,active
-,5,Cultura ,,,active
-,6,Defesa Nacional ,,,active
-,7,Economia e Finanças ,,,active
-,8,Educação ,,,active
-,9,Energia ,,,active
-,10,Esporte e Lazer ,,,active
-,11,Habitação ,,,active
-,12,Indústria ,,,active
-,13,Meio ambiente ,,,active
-,14,Pesquisa e Desenvolvimento ,,,active
-,15,Previdência Social ,,,active
-,16,Proteção social ,,,active
-,17,Relações internacionais ,,,active
-,18,Saneamento ,,,active
-,19,Saúde ,,,active
-,20,Segurança e Ordem Pública ,,,active
-,21,Trabalho ,,,active
-,22,Transportes ,,,active
-,23,Urbanismo,,,active
+administracao,administrao,Administração ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/administracao.png,active
+agropecuaria,agropecuria,Agropecuária ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/agropecuaria.png,active
+comercio-e-servicos,comrcio-e-servios,Comércio e Serviços ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/comercio_e_servicos.png,active
+comunicacoes,comunicaes,Comunicações ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/comunicacoes.png,active
+cultura,cultura,Cultura ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/cultura.png,active
+defesa-nacional,defesa-nacional,Defesa Nacional ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/defesa_nacional.png,active
+economia-e-financas,economia-e-finanas,Economia e Finanças ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/economia_e_financas.png,active
+educacao,educao,Educação ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/educacao.png,active
+energia,energia,Energia ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/energia.png,active
+esporte-e-lazer,esporte-e-lazer,Esporte e Lazer ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/esporte_e_lazer.png,active
+habitacao,habitao,Habitação ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/habitacao.png,active
+industria,indstria,Indústria ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/industria.png,active
+meio-ambiente,meio-ambiente,Meio ambiente ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/meio_ambiente.png,active
+pesquisa-e-desenvolvimento,pesquisa-e-desenvolvimento,Pesquisa e Desenvolvimento ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/pesquisa_e_desenvolvimento.png,active
+previdencia-social,previdncia-social,Previdência Social ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/previdencia_social.png,active
+protecao-social,proteo-social,Proteção social ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/protecao_social.png,active
+relacoes-internacionais,relaes-internacionais,Relações internacionais ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/relacoes_internacionais.png,active
+saneamento,saneamento,Saneamento ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/saneamento.png,active
+saude,sade,Saúde ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/saude.png,active
+seguranca-e-ordem-publica,segurana-e-ordem-pblica,Segurança e Ordem Pública ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/seguranca_e_ordem_publica.png,active
+trabalho,trabalho,Trabalho ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/trabalho.png,active
+transportes,transportes,Transportes ,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/transportes.png,active
+urbanismo,urbanismo,Urbanismo,,http://cmbd.saopauloaberta.prefeitura.sp.gov.br/imagem-representativa/temas/urbanismo.png,active
